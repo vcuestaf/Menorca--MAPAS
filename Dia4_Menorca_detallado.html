@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a51f551730ded0b2f3fbcf14c82fe052 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a51f551730ded0b2f3fbcf14c82fe052" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a51f551730ded0b2f3fbcf14c82fe052 = L.map(
+                "map_a51f551730ded0b2f3fbcf14c82fe052",
+                {
+                    center: [39.9, 4.1],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fc0f5339404fd534c4057cc9eaad8e7a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a51f551730ded0b2f3fbcf14c82fe052);
+        
+    
+            var marker_484820863ead70c7a81f37e278104364 = L.marker(
+                [39.9414, 3.9769],
+                {}
+            ).addTo(map_a51f551730ded0b2f3fbcf14c82fe052);
+        
+    
+        var popup_f82c196f9ace9407af0b4f8ca995ae73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb04b768f7185095764cc7b40dc2766c = $(`<div id="html_fb04b768f7185095764cc7b40dc2766c" style="width: 100.0%; height: 100.0%;">Cala Mitjana</div>`)[0];
+            popup_f82c196f9ace9407af0b4f8ca995ae73.setContent(html_fb04b768f7185095764cc7b40dc2766c);
+        
+
+        marker_484820863ead70c7a81f37e278104364.bindPopup(popup_f82c196f9ace9407af0b4f8ca995ae73)
+        ;
+
+        
+    
+    
+            var marker_f4a002e56a81bfcaa6f82934e0030473 = L.marker(
+                [39.8419, 4.2027],
+                {}
+            ).addTo(map_a51f551730ded0b2f3fbcf14c82fe052);
+        
+    
+        var popup_bd2ed5f7ac916e6273e0640dcaf30bf0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_832a6e07e19d0633f37f2603d5a229fc = $(`<div id="html_832a6e07e19d0633f37f2603d5a229fc" style="width: 100.0%; height: 100.0%;">Binibeca</div>`)[0];
+            popup_bd2ed5f7ac916e6273e0640dcaf30bf0.setContent(html_832a6e07e19d0633f37f2603d5a229fc);
+        
+
+        marker_f4a002e56a81bfcaa6f82934e0030473.bindPopup(popup_bd2ed5f7ac916e6273e0640dcaf30bf0)
+        ;
+
+        
+    
+    
+            var marker_78bef6d11fecd499ff475383cae68cd9 = L.marker(
+                [39.8628, 4.2186],
+                {}
+            ).addTo(map_a51f551730ded0b2f3fbcf14c82fe052);
+        
+    
+        var popup_5768cc14deac847ed0ff2aa4ebd27fcf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a85746e3ac57ab8349643f5348a1f7a = $(`<div id="html_3a85746e3ac57ab8349643f5348a1f7a" style="width: 100.0%; height: 100.0%;">Aeropuerto de Menorca</div>`)[0];
+            popup_5768cc14deac847ed0ff2aa4ebd27fcf.setContent(html_3a85746e3ac57ab8349643f5348a1f7a);
+        
+
+        marker_78bef6d11fecd499ff475383cae68cd9.bindPopup(popup_5768cc14deac847ed0ff2aa4ebd27fcf)
+        ;
+
+        
+    
+    
+            var marker_3a8534170c55793f908a0448fbf20555 = L.marker(
+                [39.939, 3.969],
+                {}
+            ).addTo(map_a51f551730ded0b2f3fbcf14c82fe052);
+        
+    
+            var icon_b0fafaa75877c38f2ec88ae26b85f873 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3a8534170c55793f908a0448fbf20555.setIcon(icon_b0fafaa75877c38f2ec88ae26b85f873);
+        
+    
+        var popup_d62c68f8c576c98049b7ebdb3824348d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3dc0b7bce58c7c71beec6155184a863 = $(`<div id="html_e3dc0b7bce58c7c71beec6155184a863" style="width: 100.0%; height: 100.0%;">Parking Cala Mitjana</div>`)[0];
+            popup_d62c68f8c576c98049b7ebdb3824348d.setContent(html_e3dc0b7bce58c7c71beec6155184a863);
+        
+
+        marker_3a8534170c55793f908a0448fbf20555.bindPopup(popup_d62c68f8c576c98049b7ebdb3824348d)
+        ;
+
+        
+    
+    
+            var marker_f2b15cf07447d49d35873a9078e33d81 = L.marker(
+                [39.8415, 4.2023],
+                {}
+            ).addTo(map_a51f551730ded0b2f3fbcf14c82fe052);
+        
+    
+            var icon_35d8b709846f993687f9db38569ac549 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f2b15cf07447d49d35873a9078e33d81.setIcon(icon_35d8b709846f993687f9db38569ac549);
+        
+    
+        var popup_014571e5342233f81b59453186e89d3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38fcd5ecdd00d819c3ad49a3343e34b2 = $(`<div id="html_38fcd5ecdd00d819c3ad49a3343e34b2" style="width: 100.0%; height: 100.0%;">Restaurante Sa Musclera (Binibeca)</div>`)[0];
+            popup_014571e5342233f81b59453186e89d3d.setContent(html_38fcd5ecdd00d819c3ad49a3343e34b2);
+        
+
+        marker_f2b15cf07447d49d35873a9078e33d81.bindPopup(popup_014571e5342233f81b59453186e89d3d)
+        ;
+
+        
+    
+    
+            var poly_line_6deeefaf170b1211fea1f0ce0b5c2237 = L.polyline(
+                [[39.939, 3.969], [39.9414, 3.9769]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a51f551730ded0b2f3fbcf14c82fe052);
+        
+    
+            poly_line_6deeefaf170b1211fea1f0ce0b5c2237.bindTooltip(
+                `<div>
+                     Sendero a pie a Cala Mitjana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

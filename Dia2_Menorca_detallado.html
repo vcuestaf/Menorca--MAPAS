@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_be2f0c1fca2d8c81f858694512eaca43 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_be2f0c1fca2d8c81f858694512eaca43" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_be2f0c1fca2d8c81f858694512eaca43 = L.map(
+                "map_be2f0c1fca2d8c81f858694512eaca43",
+                {
+                    center: [39.94, 3.9],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c09d7446d93d2cea53309ccbe53bb6f6 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_be2f0c1fca2d8c81f858694512eaca43);
+        
+    
+            var marker_6c7365ff956c9a7964562ca0d0d826e1 = L.marker(
+                [39.9281, 3.8372],
+                {}
+            ).addTo(map_be2f0c1fca2d8c81f858694512eaca43);
+        
+    
+        var popup_48b6b32498a0f30a51846a6f590b7c33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89d56a41ddfa9e08c0214ecb4879fe4a = $(`<div id="html_89d56a41ddfa9e08c0214ecb4879fe4a" style="width: 100.0%; height: 100.0%;">Hotel</div>`)[0];
+            popup_48b6b32498a0f30a51846a6f590b7c33.setContent(html_89d56a41ddfa9e08c0214ecb4879fe4a);
+        
+
+        marker_6c7365ff956c9a7964562ca0d0d826e1.bindPopup(popup_48b6b32498a0f30a51846a6f590b7c33)
+        ;
+
+        
+    
+    
+            var marker_7422161c10bfdbf0de78fe42affa67f9 = L.marker(
+                [40.0005, 3.8415],
+                {}
+            ).addTo(map_be2f0c1fca2d8c81f858694512eaca43);
+        
+    
+        var popup_7d52bc6cdbaa39a09fc1f43d5941b4e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7e1250a78b55e3fcc8c221fc700656f = $(`<div id="html_f7e1250a78b55e3fcc8c221fc700656f" style="width: 100.0%; height: 100.0%;">Puerto de Ciutadella</div>`)[0];
+            popup_7d52bc6cdbaa39a09fc1f43d5941b4e6.setContent(html_f7e1250a78b55e3fcc8c221fc700656f);
+        
+
+        marker_7422161c10bfdbf0de78fe42affa67f9.bindPopup(popup_7d52bc6cdbaa39a09fc1f43d5941b4e6)
+        ;
+
+        
+    
+    
+            var marker_bcf7898710e28dfb843faccd079125da = L.marker(
+                [39.9371, 3.9368],
+                {}
+            ).addTo(map_be2f0c1fca2d8c81f858694512eaca43);
+        
+    
+            var icon_c695d7947b207606d54d92b16db5b989 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bcf7898710e28dfb843faccd079125da.setIcon(icon_c695d7947b207606d54d92b16db5b989);
+        
+    
+        var popup_23c1ef0b8330d692334fbaca762cb5a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_262b3b7171ed233c0621ce72a4e9e9c5 = $(`<div id="html_262b3b7171ed233c0621ce72a4e9e9c5" style="width: 100.0%; height: 100.0%;">Cala Macarella</div>`)[0];
+            popup_23c1ef0b8330d692334fbaca762cb5a9.setContent(html_262b3b7171ed233c0621ce72a4e9e9c5);
+        
+
+        marker_bcf7898710e28dfb843faccd079125da.bindPopup(popup_23c1ef0b8330d692334fbaca762cb5a9)
+        ;
+
+        
+    
+    
+            var marker_52fa3db83b951e6f570560dd23d97d4b = L.marker(
+                [39.9335, 3.939],
+                {}
+            ).addTo(map_be2f0c1fca2d8c81f858694512eaca43);
+        
+    
+            var icon_515eb97850106db44c70c5b2417104d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_52fa3db83b951e6f570560dd23d97d4b.setIcon(icon_515eb97850106db44c70c5b2417104d6);
+        
+    
+        var popup_a39f827a74f2621bf02a689d1f37accc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aaf1d3cc8f2b41bd2c903adef059ef29 = $(`<div id="html_aaf1d3cc8f2b41bd2c903adef059ef29" style="width: 100.0%; height: 100.0%;">Cala Macarelleta</div>`)[0];
+            popup_a39f827a74f2621bf02a689d1f37accc.setContent(html_aaf1d3cc8f2b41bd2c903adef059ef29);
+        
+
+        marker_52fa3db83b951e6f570560dd23d97d4b.bindPopup(popup_a39f827a74f2621bf02a689d1f37accc)
+        ;
+
+        
+    
+    
+            var marker_dba394f51656aed0f4d4fa7ea91571d3 = L.marker(
+                [39.9357, 3.9221],
+                {}
+            ).addTo(map_be2f0c1fca2d8c81f858694512eaca43);
+        
+    
+            var icon_4c487c9c9b74f81ea88ae14261def05e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dba394f51656aed0f4d4fa7ea91571d3.setIcon(icon_4c487c9c9b74f81ea88ae14261def05e);
+        
+    
+        var popup_f44a524a51e6538d8bcbec2097a359be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e26746ddb83680de038f8ba8cdac9559 = $(`<div id="html_e26746ddb83680de038f8ba8cdac9559" style="width: 100.0%; height: 100.0%;">Cala Turqueta</div>`)[0];
+            popup_f44a524a51e6538d8bcbec2097a359be.setContent(html_e26746ddb83680de038f8ba8cdac9559);
+        
+
+        marker_dba394f51656aed0f4d4fa7ea91571d3.bindPopup(popup_f44a524a51e6538d8bcbec2097a359be)
+        ;
+
+        
+    
+    
+            var marker_61cac3780ffaf8c33179448477ffa4f6 = L.marker(
+                [39.935, 3.928],
+                {}
+            ).addTo(map_be2f0c1fca2d8c81f858694512eaca43);
+        
+    
+            var icon_18a10c92765f7daae2e9e724f86b08d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_61cac3780ffaf8c33179448477ffa4f6.setIcon(icon_18a10c92765f7daae2e9e724f86b08d8);
+        
+    
+        var popup_8adf26e38dc638fa8ef68b94fba2a644 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4455fe969f5c848e46ddd80fb261e7d = $(`<div id="html_e4455fe969f5c848e46ddd80fb261e7d" style="width: 100.0%; height: 100.0%;">Parking Cala Turqueta</div>`)[0];
+            popup_8adf26e38dc638fa8ef68b94fba2a644.setContent(html_e4455fe969f5c848e46ddd80fb261e7d);
+        
+
+        marker_61cac3780ffaf8c33179448477ffa4f6.bindPopup(popup_8adf26e38dc638fa8ef68b94fba2a644)
+        ;
+
+        
+    
+    
+            var marker_a0df29a30de518fa0f1d6a7c85941924 = L.marker(
+                [39.942, 3.931],
+                {}
+            ).addTo(map_be2f0c1fca2d8c81f858694512eaca43);
+        
+    
+            var icon_0d0d19a6543156dcd66f5d4725734680 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a0df29a30de518fa0f1d6a7c85941924.setIcon(icon_0d0d19a6543156dcd66f5d4725734680);
+        
+    
+        var popup_fbad5de95e63a12d2f52eb0363e41f03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56f6f37d2d844c7adee44ed92a3db773 = $(`<div id="html_56f6f37d2d844c7adee44ed92a3db773" style="width: 100.0%; height: 100.0%;">Parking Cala Macarella</div>`)[0];
+            popup_fbad5de95e63a12d2f52eb0363e41f03.setContent(html_56f6f37d2d844c7adee44ed92a3db773);
+        
+
+        marker_a0df29a30de518fa0f1d6a7c85941924.bindPopup(popup_fbad5de95e63a12d2f52eb0363e41f03)
+        ;
+
+        
+    
+    
+            var marker_76656d09b2c1209d665d228cd1675dd4 = L.marker(
+                [39.997, 3.832],
+                {}
+            ).addTo(map_be2f0c1fca2d8c81f858694512eaca43);
+        
+    
+            var icon_255a31d70a92a299dd64f9a9fb35d5d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_76656d09b2c1209d665d228cd1675dd4.setIcon(icon_255a31d70a92a299dd64f9a9fb35d5d9);
+        
+    
+        var popup_844151a8481262bf7b4ee1643ec43401 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0951582d7006f1ee6494bd123f67fbc = $(`<div id="html_a0951582d7006f1ee6494bd123f67fbc" style="width: 100.0%; height: 100.0%;">Restaurante Cas Ferrer de Sa Font (Ciutadella)</div>`)[0];
+            popup_844151a8481262bf7b4ee1643ec43401.setContent(html_a0951582d7006f1ee6494bd123f67fbc);
+        
+
+        marker_76656d09b2c1209d665d228cd1675dd4.bindPopup(popup_844151a8481262bf7b4ee1643ec43401)
+        ;
+
+        
+    
+</script>
+</html>

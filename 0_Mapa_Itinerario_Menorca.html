@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8485d1bc7ab95e0d1d863a68908aa03a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8485d1bc7ab95e0d1d863a68908aa03a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8485d1bc7ab95e0d1d863a68908aa03a = L.map(
+                "map_8485d1bc7ab95e0d1d863a68908aa03a",
+                {
+                    center: [39.945, 4.098],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_637a3b368ebdd1387175aaec9f71123f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8485d1bc7ab95e0d1d863a68908aa03a);
+        
+    
+            var marker_eb126d01bf5559817e762ae4d4873576 = L.marker(
+                [39.8628, 4.2186],
+                {}
+            ).addTo(map_8485d1bc7ab95e0d1d863a68908aa03a);
+        
+    
+        var popup_fc7e891052f1b4c7126ce8e4acc07607 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5707e3c7959614f2d38499baf6b049d = $(`<div id="html_e5707e3c7959614f2d38499baf6b049d" style="width: 100.0%; height: 100.0%;">Aeropuerto de Menorca</div>`)[0];
+            popup_fc7e891052f1b4c7126ce8e4acc07607.setContent(html_e5707e3c7959614f2d38499baf6b049d);
+        
+
+        marker_eb126d01bf5559817e762ae4d4873576.bindPopup(popup_fc7e891052f1b4c7126ce8e4acc07607)
+        ;
+
+        
+    
+    
+            var marker_8cc542d86a8aeec7cea00bc5705b92c4 = L.marker(
+                [39.9281, 3.8372],
+                {}
+            ).addTo(map_8485d1bc7ab95e0d1d863a68908aa03a);
+        
+    
+        var popup_0551ffbc5253d0e567959a307a6c9a31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a7b47defc38f339a96eb82f0767fdbb = $(`<div id="html_6a7b47defc38f339a96eb82f0767fdbb" style="width: 100.0%; height: 100.0%;">Grupotel Tamariscos (Cala’n Bosch)</div>`)[0];
+            popup_0551ffbc5253d0e567959a307a6c9a31.setContent(html_6a7b47defc38f339a96eb82f0767fdbb);
+        
+
+        marker_8cc542d86a8aeec7cea00bc5705b92c4.bindPopup(popup_0551ffbc5253d0e567959a307a6c9a31)
+        ;
+
+        
+    
+    
+            var marker_b45135a969152536ca76eae88f6931b1 = L.marker(
+                [40.0005, 3.8415],
+                {}
+            ).addTo(map_8485d1bc7ab95e0d1d863a68908aa03a);
+        
+    
+        var popup_baa6daf590c8d7e7574b1befa58c8ee0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b62fc35e3e02fc61d31725c70419a75 = $(`<div id="html_0b62fc35e3e02fc61d31725c70419a75" style="width: 100.0%; height: 100.0%;">Ciutadella</div>`)[0];
+            popup_baa6daf590c8d7e7574b1befa58c8ee0.setContent(html_0b62fc35e3e02fc61d31725c70419a75);
+        
+
+        marker_b45135a969152536ca76eae88f6931b1.bindPopup(popup_baa6daf590c8d7e7574b1befa58c8ee0)
+        ;
+
+        
+    
+    
+            var marker_17f1820dbd6f1be7430c4f981cb23224 = L.marker(
+                [39.9371, 3.9368],
+                {}
+            ).addTo(map_8485d1bc7ab95e0d1d863a68908aa03a);
+        
+    
+        var popup_e20b287410278611965b78a492a20c77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a44e1330f775b576667233420c31bc9 = $(`<div id="html_3a44e1330f775b576667233420c31bc9" style="width: 100.0%; height: 100.0%;">Cala Macarella</div>`)[0];
+            popup_e20b287410278611965b78a492a20c77.setContent(html_3a44e1330f775b576667233420c31bc9);
+        
+
+        marker_17f1820dbd6f1be7430c4f981cb23224.bindPopup(popup_e20b287410278611965b78a492a20c77)
+        ;
+
+        
+    
+    
+            var marker_6faffa97ba682990f55baca4bec7d161 = L.marker(
+                [39.9414, 3.9769],
+                {}
+            ).addTo(map_8485d1bc7ab95e0d1d863a68908aa03a);
+        
+    
+        var popup_b8c350f12f433b0515ef6731a8044bd5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_493069d40109dcbd625c7ec762ac0f3b = $(`<div id="html_493069d40109dcbd625c7ec762ac0f3b" style="width: 100.0%; height: 100.0%;">Cala Mitjana</div>`)[0];
+            popup_b8c350f12f433b0515ef6731a8044bd5.setContent(html_493069d40109dcbd625c7ec762ac0f3b);
+        
+
+        marker_6faffa97ba682990f55baca4bec7d161.bindPopup(popup_b8c350f12f433b0515ef6731a8044bd5)
+        ;
+
+        
+    
+    
+            var marker_2ac6ae04c15c23514be57543d6f85e2c = L.marker(
+                [40.0417, 4.1338],
+                {}
+            ).addTo(map_8485d1bc7ab95e0d1d863a68908aa03a);
+        
+    
+        var popup_a676f8a1018620a9bffae9e017be3389 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_184466c8c37e47b5ca1e1862cb9c4f8b = $(`<div id="html_184466c8c37e47b5ca1e1862cb9c4f8b" style="width: 100.0%; height: 100.0%;">Fornells</div>`)[0];
+            popup_a676f8a1018620a9bffae9e017be3389.setContent(html_184466c8c37e47b5ca1e1862cb9c4f8b);
+        
+
+        marker_2ac6ae04c15c23514be57543d6f85e2c.bindPopup(popup_a676f8a1018620a9bffae9e017be3389)
+        ;
+
+        
+    
+    
+            var marker_4c0bcbba6e353780e7d0f1bcc4524346 = L.marker(
+                [40.078, 4.0517],
+                {}
+            ).addTo(map_8485d1bc7ab95e0d1d863a68908aa03a);
+        
+    
+        var popup_eb8fba97fe0ee0a590bc7fce8b2ebdf8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3576fd0d77d73c976b861be523fe370e = $(`<div id="html_3576fd0d77d73c976b861be523fe370e" style="width: 100.0%; height: 100.0%;">Faro de Cavalleria</div>`)[0];
+            popup_eb8fba97fe0ee0a590bc7fce8b2ebdf8.setContent(html_3576fd0d77d73c976b861be523fe370e);
+        
+
+        marker_4c0bcbba6e353780e7d0f1bcc4524346.bindPopup(popup_eb8fba97fe0ee0a590bc7fce8b2ebdf8)
+        ;
+
+        
+    
+    
+            var marker_d98041658780ad0057c1bbf4f9fadf0b = L.marker(
+                [39.9875, 4.1102],
+                {}
+            ).addTo(map_8485d1bc7ab95e0d1d863a68908aa03a);
+        
+    
+        var popup_026009730263ef9a74d85f19c20f4644 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11e600529006889b5087c66539665382 = $(`<div id="html_11e600529006889b5087c66539665382" style="width: 100.0%; height: 100.0%;">Monte Toro</div>`)[0];
+            popup_026009730263ef9a74d85f19c20f4644.setContent(html_11e600529006889b5087c66539665382);
+        
+
+        marker_d98041658780ad0057c1bbf4f9fadf0b.bindPopup(popup_026009730263ef9a74d85f19c20f4644)
+        ;
+
+        
+    
+    
+            var marker_c139500381cea2e9008c4c2f7a4e22f8 = L.marker(
+                [39.8419, 4.2027],
+                {}
+            ).addTo(map_8485d1bc7ab95e0d1d863a68908aa03a);
+        
+    
+        var popup_f3cbad15c934484471fdb70cd7acd950 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0a7ca67a4ef33a40bf5d69afbbd429d = $(`<div id="html_a0a7ca67a4ef33a40bf5d69afbbd429d" style="width: 100.0%; height: 100.0%;">Binibeca</div>`)[0];
+            popup_f3cbad15c934484471fdb70cd7acd950.setContent(html_a0a7ca67a4ef33a40bf5d69afbbd429d);
+        
+
+        marker_c139500381cea2e9008c4c2f7a4e22f8.bindPopup(popup_f3cbad15c934484471fdb70cd7acd950)
+        ;
+
+        
+    
+    
+            var marker_3d5e84bc1d0204556706b9d95e47b7bc = L.marker(
+                [40.0164, 3.7964],
+                {}
+            ).addTo(map_8485d1bc7ab95e0d1d863a68908aa03a);
+        
+    
+        var popup_6ab2b87f23a685dff8d90e1f83479e21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09f047ce6a22eb65607453b4fb74d0f8 = $(`<div id="html_09f047ce6a22eb65607453b4fb74d0f8" style="width: 100.0%; height: 100.0%;">Pont d’en Gil</div>`)[0];
+            popup_6ab2b87f23a685dff8d90e1f83479e21.setContent(html_09f047ce6a22eb65607453b4fb74d0f8);
+        
+
+        marker_3d5e84bc1d0204556706b9d95e47b7bc.bindPopup(popup_6ab2b87f23a685dff8d90e1f83479e21)
+        ;
+
+        
+    
+    
+            var marker_a56398314c75b7b38f72aa6e7d771b51 = L.marker(
+                [39.9639, 4.2747],
+                {}
+            ).addTo(map_8485d1bc7ab95e0d1d863a68908aa03a);
+        
+    
+        var popup_71ad3bf1b9739a95b3ba7852403a12a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c385a93c78c971e9d6ac0921e0d9cc4 = $(`<div id="html_6c385a93c78c971e9d6ac0921e0d9cc4" style="width: 100.0%; height: 100.0%;">S’Albufera des Grau</div>`)[0];
+            popup_71ad3bf1b9739a95b3ba7852403a12a9.setContent(html_6c385a93c78c971e9d6ac0921e0d9cc4);
+        
+
+        marker_a56398314c75b7b38f72aa6e7d771b51.bindPopup(popup_71ad3bf1b9739a95b3ba7852403a12a9)
+        ;
+
+        
+    
+</script>
+</html>

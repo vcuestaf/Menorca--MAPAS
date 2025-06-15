@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_769468f1d4bb33b1cd0c503733432f55 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_769468f1d4bb33b1cd0c503733432f55" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_769468f1d4bb33b1cd0c503733432f55 = L.map(
+                "map_769468f1d4bb33b1cd0c503733432f55",
+                {
+                    center: [39.9, 4.05],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4e8b4be59694a1ad725946c0eaf52a4c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_769468f1d4bb33b1cd0c503733432f55);
+        
+    
+            var marker_153e31257f2cf0c3804ae2f50f1a115c = L.marker(
+                [39.8628, 4.2186],
+                {}
+            ).addTo(map_769468f1d4bb33b1cd0c503733432f55);
+        
+    
+            var icon_76ecd924f866736454934107dbdb5975 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_153e31257f2cf0c3804ae2f50f1a115c.setIcon(icon_76ecd924f866736454934107dbdb5975);
+        
+    
+        var popup_17a36e096da8e00db5775c056009d690 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d7d386d8e2e430d32315628c8089af7 = $(`<div id="html_9d7d386d8e2e430d32315628c8089af7" style="width: 100.0%; height: 100.0%;">Aeropuerto de Menorca</div>`)[0];
+            popup_17a36e096da8e00db5775c056009d690.setContent(html_9d7d386d8e2e430d32315628c8089af7);
+        
+
+        marker_153e31257f2cf0c3804ae2f50f1a115c.bindPopup(popup_17a36e096da8e00db5775c056009d690)
+        ;
+
+        
+    
+    
+            var marker_94d943a306d7462c605a53f87d6f562c = L.marker(
+                [39.9281, 3.8372],
+                {}
+            ).addTo(map_769468f1d4bb33b1cd0c503733432f55);
+        
+    
+            var icon_415374719fd58cd2c9ccaf6abe372b48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_94d943a306d7462c605a53f87d6f562c.setIcon(icon_415374719fd58cd2c9ccaf6abe372b48);
+        
+    
+        var popup_322916f113dc2a719f63d2f11a9776a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a84f1db852ae8503444717c52a24f882 = $(`<div id="html_a84f1db852ae8503444717c52a24f882" style="width: 100.0%; height: 100.0%;">Grupotel Tamariscos (Cala’n Bosch)</div>`)[0];
+            popup_322916f113dc2a719f63d2f11a9776a6.setContent(html_a84f1db852ae8503444717c52a24f882);
+        
+
+        marker_94d943a306d7462c605a53f87d6f562c.bindPopup(popup_322916f113dc2a719f63d2f11a9776a6)
+        ;
+
+        
+    
+    
+            var poly_line_8d3c887a1971c548dda96674a15bf5ee = L.polyline(
+                [[39.8628, 4.2186], [39.9281, 3.8372]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_769468f1d4bb33b1cd0c503733432f55);
+        
+</script>
+</html>
